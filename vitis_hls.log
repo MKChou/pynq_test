@@ -1,0 +1,33 @@
+INFO: [HLS 200-10] Running 'D:/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'user' on host 'hc' (Windows NT_amd64 version 6.2) on Fri Jan 01 16:04:07 +0800 2021
+INFO: [HLS 200-10] In directory 'C:/Users/user/Desktop/ADD_TEST'
+Sourcing Tcl script 'C:/Users/user/Desktop/ADD_TEST/mk_pynq-2_test/mk_pynq-z2_test/export.tcl'
+INFO: [HLS 200-1510] Running: open_project mk_pynq-2_test 
+INFO: [HLS 200-10] Opening project 'C:/Users/user/Desktop/ADD_TEST/mk_pynq-2_test'.
+INFO: [HLS 200-1510] Running: set_top add 
+INFO: [HLS 200-1510] Running: add_files mk_add.cpp 
+INFO: [HLS 200-10] Adding design file 'mk_add.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution mk_pynq-z2_test -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/user/Desktop/ADD_TEST/mk_pynq-2_test/mk_pynq-z2_test'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  1 16:04:18 2021...
+INFO: [HLS 200-802] Generated output file mk_pynq-2_test/mk_pynq-z2_test/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 9.493 seconds; current allocated memory: 198.318 MB.
