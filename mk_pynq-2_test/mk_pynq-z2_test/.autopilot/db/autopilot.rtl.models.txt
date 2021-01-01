@@ -1,2 +1,0 @@
-add_CTRL_s_axi
-add
